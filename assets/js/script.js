@@ -9,6 +9,12 @@ $(document).ready(function () { // use .ready to load in moment before user inte
         console.log(text, time);
     });
 
+    setInterval(function() {
+        $(".description").each(function(el){
+            timeTracker(el);
+        });
+    }, 1200000);
+
     //load values from local storage
     $("#0800 .description").val(localStorage.getItem("0800"));
     $("#0900 .description").val(localStorage.getItem("0900"));
