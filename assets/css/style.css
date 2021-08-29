@@ -5,7 +5,7 @@ body {
 }
 
 textarea{
-  background: transparent;
+  background: transparent; 
   border: none;
   resize: none;
   color: #000000;
@@ -15,11 +15,21 @@ textarea{
 
 .jumbotron {
   text-align: center;
-  background-color: transparent;
+  background-color:rgb(48, 149, 196);
   color: black;
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 10px solid rgb(0, 0, 0);
+} 
+
+footer {
+  text-align: center;
+  background-color: rgb(48, 149, 196);
+  border-top: 10px solid black;
+  height: 100px;
+  padding:25px;
+  margin:30px;
 }
+
 
 .description{
   white-space: pre-wrap;
